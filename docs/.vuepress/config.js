@@ -62,25 +62,25 @@ module.exports = {
       name: 'zhangyaping', // 必需
       // link: 'https://github.com/xugaoyi' // 可选的
     },
-    blogger: { // 博主信息，显示在首页侧边栏
-      avatar: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603648980215&di=b584de1153c829cfdb51315e9f9f9bac&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2F5p%2F02%2FQJ8107442808.jpg',
-      name: 'zhangyaping'
-      // slogan: ''
-    },
-    social: { // 社交图标，显示于博主信息栏和页脚栏
-      // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
-      icons: [
-        {
-          iconClass: 'icon-youjian',
-          title: '邮件',
-          link: 'mailto:894072666@qq.com'
-        }
-      ]
-    },
-    footer: { // 页脚信息
-      createYear: 2020, // 博客创建年份
-      copyrightInfo: 'zhang | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-    }
+    // blogger: { // 博主信息，显示在首页侧边栏
+    //   avatar: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1603648980215&di=b584de1153c829cfdb51315e9f9f9bac&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2F5p%2F02%2FQJ8107442808.jpg',
+    //   name: 'zhangyaping'
+    //   // slogan: ''
+    // },
+    // social: { // 社交图标，显示于博主信息栏和页脚栏
+    //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    //   icons: [
+    //     {
+    //       iconClass: 'icon-youjian',
+    //       title: '邮件',
+    //       link: 'mailto:xx@qq.com'
+    //     }
+    //   ]
+    // },
+    // footer: { // 页脚信息
+    //   createYear: 2020, // 博客创建年份
+    //   copyrightInfo: 'zhang | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+    // }
   },
   plugins: [ // 插件
     // [require('./plugins/love-me'), { // 鼠标点击爱心特效
