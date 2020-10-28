@@ -77,10 +77,10 @@ module.exports = {
     //     }
     //   ]
     // },
-    // footer: { // 页脚信息
-    //   createYear: 2020, // 博客创建年份
-    //   copyrightInfo: 'zhang | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-    // }
+    footer: { // 页脚信息
+      createYear: 2020, // 博客创建年份
+      copyrightInfo: 'zhangyaping', // 博客版权信息，支持a标签
+    }
   },
   plugins: [ // 插件
     // [require('./plugins/love-me'), { // 鼠标点击爱心特效
